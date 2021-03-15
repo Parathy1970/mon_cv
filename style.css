@@ -1,0 +1,67 @@
+body{
+    font-family: "Times New Roman";
+    display: flex;
+    flex-flow: row wrap;
+}
+header{
+    margin: 0 0 5px 0px;
+    padding: 0 0 0 10px;
+    border: 2px solid #000000;
+    width: 100vw;
+    height: 20%;
+}
+#ma-photo{
+    margin: 10px;
+    width: 200px;
+    height: 130px;
+    float: left;
+}
+#ma-photo:hover {
+    width: 400px%;
+    height: 200px;
+}
+nav{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+section{
+    width: 100vw;
+    height: 90%;
+}
+article{
+    /*
+    margin: 5px;  espace entre chaque article
+    padding: 0 5px 5px 5px;  le contenu ne soit pas collé à la bordure
+    */
+    width: 100vw;
+    height: 90%;
+    margin: 10px 0 0 0;
+    border: 2px solid #000000;
+    padding: 0px 10px 5px 10px;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color: #556b2f;
+}
+table{
+    /* border-collapse: collapse = fusion des colonnes */
+    border-collapse: collapse;
+    margin: 5px;
+}
+table th, td{
+    padding: .25em 1em;
+    border: 1px solid #6495ed;
+}
+table td{
+    text-align: center;
+}
+tbody tr:nth-child(odd){
+    /* ligne impaire */
+    background-color: #eeeeee;
+}
+tbody tr:nth-child(even){
+    /* ligne paire */
+    background-color: #cccccc;
+}
